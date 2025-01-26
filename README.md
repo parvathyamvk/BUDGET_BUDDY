@@ -32,7 +32,7 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](/Training.jpeg)
+![Screenshot1](landing_page.jpeg)
 The initial screen serves as a warm and inviting gateway into the Budget Buddy platform. It features a sleek and modern interface, designed to welcome users with clarity and simplicity
 
 ![Screenshot2](/budget.jpeg)
