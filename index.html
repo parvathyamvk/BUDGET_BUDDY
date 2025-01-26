@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Buddy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Budget Buddy</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li> 
+                <li><a href="features.html">Features</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button onclick="toggleDarkMode()" class="dark-mode-btn">🌙</button></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Budget Form Section -->
+    <section class="budget-form">
+        <div class="container">
+            <h1>Track Your Budget</h1>
+            <form id="budgetForm">
+                <!-- Daily Budget -->
+                <div class="form-group">
+                    <label for="dailyBudget">Enter Daily Budget:</label>
+                    <input type="number" id="dailyBudget" placeholder="Enter daily budget" required>
+                </div>
+
+                <!-- Monthly Budget -->
+                <div class="form-group">
+                    <label for="monthlyBudget">Enter Monthly Budget:</label>
+                    <input type="number" id="monthlyBudget" placeholder="Enter monthly budget" required>
+                </div>
+
+                <!-- Expenses and Savings -->
+                <div class="form-group">
+                    <label for="electricityBill">Today's Electricity Bill:</label>
+                    <input type="number" id="electricityBill" placeholder="Electricity bill" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dailySavings">Today's Savings:</label>
+                    <input type="number" id="dailySavings" placeholder="Enter savings for today" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="foodExpense">Food Expense:</label>
+                    <input type="number" id="foodExpense" placeholder="Food expense" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="entertainmentExpense">Entertainment Expense:</label>
+                    <input type="number" id="entertainmentExpense" placeholder="Entertainment expense" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="otherExpense">Other Expense:</label>
+                    <input type="number" id="otherExpense" placeholder="Other expense" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+
+            <div class="summary" id="summary">
+                <p id="remainingBudget"></p>
+                <p id="totalSavings"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard with Charts -->
+    <section class="dashboard">
+        <div class="container">
+            <h2>Dashboard</h2>
+            <!-- Expense Breakdown (Bar Chart) -->
+            <div class="widget">
+                <h3>Expense and Savings Breakdown</h3>
+                <canvas id="expenseChart"></canvas>
+            </div>
+            <!-- Savings vs Expenses (Pie Chart) -->
+            <div class="widget">
+                <h3>Savings vs Expenses</h3>
+                <canvas id="savingsVsExpensesChart"></canvas>
+            </div>
+            <!-- Transaction History -->
+            <div class="widget">
+                <h3>Transaction History</h3>
+                <table id="transactionHistory">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Type</th>
+                            <th>Amount ($)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Transaction entries will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+            <!-- Money Management Tips -->
+            <div class="widget">
+                <h3>Money Management Tips</h3>
+                <ul>
+                    <li><strong>Track your spending:</strong> Know where your money is going every day.</li>
+                    <li><strong>Set savings goals:</strong> Aim to save a fixed percentage each month.</li>
+                    <li><strong>Emergency fund:</strong> Build a fund that covers 3–6 months of expenses.</li>
+                    <li><strong>Review your budget weekly:</strong> Ensure you’re staying on track.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notifications -->
+    <div id="notification" class="notification"></div>
+<!-- Saving Calculator Section -->
+<div class="saving-calculator">
+    <h2>Saving Calculator</h2>
+    <form id="savingForm">
+        <div class="form-group">
+            <label for="income">Monthly Income (₹):</label>
+            <input type="number" id="income" name="income" required>
+        </div>
+        <div class="form-group">
+            <label for="expenses">Monthly Expenses (₹):</label>
+            <input type="number" id="expenses" name="expenses" required>
+        </div>
+        <button type="submit" class="submit-btn">Calculate Savings</button>
+    </form>
+    <div class="savings-result">
+        <p id="result"></p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

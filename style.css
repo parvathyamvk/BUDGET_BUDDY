@@ -1,0 +1,423 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f4f7f6 30%, #e1e8e6 70%);
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s;
+}
+
+.navbar .logo a {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar .logo a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0;
+    position: relative;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #f39c12;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+    transform: translateY(-3px);
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.navbar .hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+/* Budget Form Section */
+.budget-form {
+    padding: 100px 40px 60px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 120px auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(45deg, #f39c12, #e67e22);
+    color: white;
+    transform: translateY(40px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.budget-form:hover {
+    transform: translateY(0);
+}
+
+.budget-form h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.budget-form .form-group {
+    margin: 20px 0;
+}
+
+.budget-form .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.budget-form .form-group input {
+    width: 100%;
+    padding: 18px;
+    margin-top: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.budget-form .form-group input:focus {
+    outline: none;
+    border-color: #f39c12;
+    background-color: #fff;
+}
+
+.budget-form .submit-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 18px 26px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.budget-form .submit-btn:hover {
+    background-color: #e67e22;
+    transform: translateY(-4px);
+}
+
+.summary {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #34495e;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 50px 30px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.widget {
+    margin-bottom: 40px;
+}
+
+.widget h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #2c3e50;
+    font-weight: 700;
+    text-align: center;
+}
+
+.widget canvas {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+.widget table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.widget table th,
+.widget table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+.widget table th {
+    background-color: #f39c12;
+    color: white;
+}
+
+.widget table td {
+    background-color: #fff;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+/* Money Management Tips */
+.widget li strong {
+    font-weight: 600;
+    color: #e67e22;
+}
+
+/* Notification */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    display: none;
+    font-size: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-out;
+}
+
+.notification.show {
+    display: block;
+    transform: translateY(0);
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+body.dark-mode .navbar {
+    background-color: #34495e;
+}
+
+body.dark-mode .navbar .logo a,
+body.dark-mode .nav-links a {
+    color: #ecf0f1;
+}
+
+body.dark-mode .navbar .hamburger .bar {
+    background-color: #ecf0f1;
+}
+
+body.dark-mode .budget-form {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+body.dark-mode .form-group input {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-color: #7f8c8d;
+}
+
+body.dark-mode .form-group input:focus {
+    border-color: #f39c12;
+}
+
+body.dark-mode .submit-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+body.dark-mode .submit-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .navbar .hamburger {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: #2c3e50;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+
+    .budget-form {
+        margin: 50px auto;
+        padding: 60px 20px;
+    }
+}/* Saving Calculator */
+.saving-calculator {
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    text-align: center;
+}
+
+.saving-calculator h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.saving-calculator .form-group {
+    margin-bottom: 20px;
+}
+
+.saving-calculator .form-group label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #7f8c8d;
+    margin-bottom: 8px;
+}
+
+.saving-calculator .form-group input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+.saving-calculator .submit-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.saving-calculator .submit-btn:hover {
+    background-color: #e67e22;
+}
+
+.savings-result {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #34495e;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 60px;
+    position: relative;
+    background: url('2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity here */
+    z-index: -1; /* Ensures overlay is behind text */
+}
+
