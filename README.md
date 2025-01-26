@@ -35,10 +35,10 @@ For Software:
 ![Screenshot1](/Training.jpeg)
 The initial screen serves as a warm and inviting gateway into the Budget Buddy platform. It features a sleek and modern interface, designed to welcome users with clarity and simplicity
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](/budget.jpeg)
 The second screen transitions users into the core functionality of Budget Buddy, emphasizing detailed expense tracking and budget management. 
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](/Training.jpeg)
 The third screen highlights Budget Buddy's powerful visualization capabilities, presenting financial data in an easy-to-understand graph format.
 
 
