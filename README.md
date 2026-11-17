@@ -1,65 +1,157 @@
-# BUDGET_BUDDY 🎯
+<div align="center">
 
+# 🎯 BUDGET_BUDDY
 
-## Budget Buddy is your personal finance assistant, helping you track daily expenses, savings, and budgets with ease. Visualize your spending habits through interactive charts and make smarter financial decisions, all while staying on top of your financial goals. Stay in control, every day.
-### Team Name: CodeUp
+### Your personal finance assistant — track expenses, plan budgets, and build better savings habits.
 
+<p>
+  <a href="https://parvathyamvk.github.io/BUDGET_BUDDY/">
+    <img src="https://img.shields.io/badge/🌐_VISIT_LIVE_PROJECT-2E8B57?style=for-the-badge" alt="Visit Budget Buddy">
+  </a>
+  <a href="https://drive.google.com/file/d/1H9t9QJs0CT35RVMxqAZudDF7mkINLSHS/view?usp=sharing">
+    <img src="https://img.shields.io/badge/▶_WATCH_PROJECT_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch project demo">
+  </a>
+</p>
 
-### Team Members
-. Member 1 : Parvathy A - College of Engineering Chengannur 
-. Member 2 : Jia Chinnu Abraham -  College of Engineering Chengannur 
-. Member 3 : Anjitha S -  College of Engineering Chengannur
-  
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js">
+</p>
 
-### Hosted Project Link
-[[Project is live here](https://parvathyamvk.github.io/BUDGET_BUDDY/)]
+</div>
 
-### Project Description
-Our project is a budgeting and savings app designed to help individuals easily manage their finances by tracking daily expenses and setting savings goals. It provides real-time insights into spending patterns and offers visualizations to promote financial awareness, helping users stay on track and reduce financial stress.
+---
 
-### The Problem statement
-Many individuals struggle with managing their finances, leading to stress, anxiety, and even mental health crises. Poor budgeting, unchecked spending, and lack of savings often result in overwhelming debt and financial insecurity. Despite various tools available, most lack simplicity and accessibility for everyday users, leaving a gap in helping people regain control over their financial lives.
+## 🌟 About the Project
 
-### The Solution
-Our project is focused on making budgeting and saving accessible, stress-free, and engaging for everyday people. It’s a great approach to tackling the financial struggles many face. By simplifying the process and incorporating fun elements like progress tracking and real-time feedback, you’re creating a tool that doesn’t just help people manage their money but also empowers them to take control of their financial futures.
+**Budget Buddy** is a personal budgeting and savings website designed to help users understand and manage their everyday finances. It brings together budget inputs, expense calculations, savings calculations, transaction history, and chart-based summaries in one interface.
 
-## Technical Details
-### Technologies/Components Used
-For Software:
-- Html,CSS,JavaScript
+The project aims to make personal finance easier to approach by presenting spending information visually and offering simple savings guidance.
 
-### Project Documentation
-For Software:
+## ✨ Features
 
-# Screenshots (Add at least 3)
-![Landing_page](/landing_page.jpeg)
-The initial screen serves as a warm and inviting gateway into the Budget Buddy platform. It features a sleek and modern interface, designed to welcome users with clarity and simplicity
+- 💰 **Budget tracking** – Enter daily and monthly budget amounts and expense details.
+- 🧾 **Expense breakdown** – View spending across food, entertainment, and other expense categories.
+- 📊 **Interactive charts** – Visualise expense breakdowns and compare monthly budget with current savings using Chart.js.
+- 💸 **Savings calculator** – Calculate savings from income and expenses and view the savings percentage.
+- 📒 **Transaction history** – Add a dated entry showing the saving or expense amount.
+- 🔔 **Budget notification** – Display a notification when expenses exceed the entered daily budget.
+- 🌙 **Dark mode** – Switch the page to a dark colour theme.
+- 📱 **Responsive navigation** – Includes a mobile navigation menu.
+- 📚 **Training and information pages** – Includes separate pages for features, training, and contact information.
 
-![Budget](/budget.jpeg)
-The second screen transitions users into the core functionality of Budget Buddy, emphasizing detailed expense tracking and budget management. 
+## 🛠️ Built With
 
-![Training](/Training.jpeg)
-The third screen highlights Budget Buddy's powerful visualization capabilities, presenting financial data in an easy-to-understand graph format.
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML, CSS and JavaScript">
+</p>
 
+<p>
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js">
+</p>
 
-### Project Demo
-# Video
-[[Demo video link here]](https://drive.google.com/file/d/1H9t9QJs0CT35RVMxqAZudDF7mkINLSHS/view?usp=sharing)
-Budget Buddy is an innovative platform designed to simplify personal financial management. This project aims to empower individuals to track expenses, plan budgets, and achieve their financial goals effectively. The tool provides user-friendly features such as interactive dashboards, spending analytics, and automated financial advice tailored to user needs. The high-resolution visuals and smooth presentation make it accessible and engaging for a broad audience.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure, forms, navigation, and content |
+| CSS3 | Layout, styling, responsive navigation, and dark mode |
+| JavaScript | Budget calculations, savings calculations, notifications, and interactions |
+| Chart.js | Expense and budget comparison charts |
 
-By integrating modern technology, Budget Buddy addresses the challenges of financial planning, offering users clarity and control over their finances. This project focuses on promoting financial literacy and enabling individuals to build healthier money habits, ensuring long-term financial stability.
+## 🚀 Getting Started
 
-Key Features:
+### Run Locally
 
-Real-time expense tracking
-Customizable budget plans
-Financial goal setting and progress tracking
-Insights and recommendations for smarter spending
-This project showcases the commitment to advancing personal finance management through technology, enhancing user experience and promoting better financial practices.
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/parvathyamvk/BUDGET_BUDDY.git
+   ```
 
-## Team Contributions
-- Parvathy A: Idea Generation
-- Jia Chinnu Abraham: Code Generation
-- Anjitha S: Code Generation
+2. Open the project folder:
 
+   ```bash
+   cd BUDGET_BUDDY
+   ```
+
+3. Open `index.html` in your web browser.
+
+The charts use Chart.js from a CDN, so an internet connection is required for chart rendering.
+
+## 📁 Project Structure
+
+```text
+BUDGET_BUDDY/
+│
+├── index.html          # Welcome / landing page
+├── home.html           # Budget dashboard and savings calculator
+├── features.html       # Overview of Budget Buddy features
+├── training.html       # Training page
+├── contact.html        # Contact and feedback page
+├── style.css           # Main dashboard styles
+├── styles.css          # Landing page styles
+├── script.js           # Budget, chart, savings, and interaction logic
+│
+├── landing_page.jpeg   # Landing page screenshot
+├── budget.jpeg         # Budget dashboard screenshot
+├── Training.jpeg       # Training page screenshot
+│
+└── README.md           # Project documentation
+```
+
+## 📸 Screenshots
+
+### 🏠 Landing Page
+
+![Budget Buddy Landing Page](landing_page.jpeg)
+
+### 💰 Budget Dashboard
+
+![Budget Buddy Dashboard](budget.jpeg)
+
+### 📚 Training Page
+
+![Budget Buddy Training Page](Training.jpeg)
+
+## 🎬 Project Demo
+
+Watch the project demonstration:
+
+[![Watch Budget Buddy Demo](https://img.shields.io/badge/▶_WATCH_PROJECT_VIDEO-FF0000?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1H9t9QJs0CT35RVMxqAZudDF7mkINLSHS/view?usp=sharing)
+
+## 🌐 Live Project
+
+<div align="center">
+
+[![Open Budget Buddy](https://img.shields.io/badge/OPEN_BUDGET_BUDDY-2E8B57?style=for-the-badge&logo=googlechrome&logoColor=white)](https://parvathyamvk.github.io/BUDGET_BUDDY/)
+
+[https://parvathyamvk.github.io/BUDGET_BUDDY/](https://parvathyamvk.github.io/BUDGET_BUDDY/)
+
+</div>
+
+## 👥 Team CodeUp
+
+Developed by **CodeUp** at **College of Engineering Chengannur**.
+
+| Team Member | Contribution |
+|---|---|
+| Parvathy A | Idea Generation |
+| Jia Chinnu Abraham | Code Generation |
+| Anjitha S | Code Generation |
+
+## 🎯 Project Objective
+
+Many people find it difficult to manage everyday spending, prepare budgets, and maintain savings. Budget Buddy aims to make these activities more approachable through a simple interface, expense summaries, visual charts, and savings calculations.
+
+## 👩‍💻 Repository
+
+[![GitHub](https://img.shields.io/badge/GitHub-parvathyamvk-181717?style=for-the-badge&logo=github)](https://github.com/parvathyamvk)
+
+---
+
+<div align="center">
+
+**Made with ❤️ by Team CodeUp**
+
+</div>
