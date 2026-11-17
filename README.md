@@ -114,12 +114,6 @@ BUDGET_BUDDY/
 
 ![Budget Buddy Training Page](Training.jpeg)
 
-## 🎬 Project Demo
-
-Watch the project demonstration:
-
-[![Watch Budget Buddy Demo](https://img.shields.io/badge/▶_WATCH_PROJECT_VIDEO-FF0000?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1H9t9QJs0CT35RVMxqAZudDF7mkINLSHS/view?usp=sharing)
-
 ## 🌐 Live Project
 
 <div align="center">
