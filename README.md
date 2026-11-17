@@ -8,8 +8,6 @@
   <a href="https://parvathyamvk.github.io/BUDGET_BUDDY/">
     <img src="https://img.shields.io/badge/🌐_VISIT_LIVE_PROJECT-2E8B57?style=for-the-badge" alt="Visit Budget Buddy">
   </a>
-  <a href="https://drive.google.com/file/d/1H9t9QJs0CT35RVMxqAZudDF7mkINLSHS/view?usp=sharing">
-    <img src="https://img.shields.io/badge/▶_WATCH_PROJECT_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch project demo">
   </a>
 </p>
 
